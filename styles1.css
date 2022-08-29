@@ -1,0 +1,213 @@
+body{
+	font-family: 'Aboreto', cursive;
+}
+
+img{
+	margin-left: 60px;
+}
+
+.sec1{
+	height: 100vh;
+	/*background: url(snooker.jpg) no-repeat center center fixed;*/
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('snooker.jpg');
+	opacity: 0.7 var(color black); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec3{
+	height: 50vh;
+	/*background: url(snooker.jpg) no-repeat center center fixed;*/
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('pool2.jpg');
+	background-position: center;
+	color: aliceblue;
+	font-family: Arial, Helvetica, sans-serif;
+	opacity: 0.1 var(color black); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sec4{
+	text-align: center;
+	font-style: oblique;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.sec1-1{
+	text-align: center;
+	color: white;
+}
+
+.sec5{
+	height: 65vh;
+	text-align: center;
+	color: aliceblue;
+	background-color: black ;
+	text-align: center;
+	margin: auto;
+}
+
+.img{
+	border-radius: 50%;
+}
+
+.imgsaif{
+	text-align: center;
+	margin: auto;
+}
+
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: auto;
+	margin-top:80px;
+}
+  .sec5h4{
+	color: goldenrod;
+	margin-top: 50px;
+}
+
+  .sec5h6{
+	margin-top: 50px;
+}
+
+.social{
+	width: 5rem;
+	height: 5rem;
+	position: absolute;
+	top: 2%;
+	right: 10%;
+	display: inherit;
+	justify-content: space-between;
+}
+
+.socialbuttons{
+	background-color: black;
+	height: 50px;
+	width: 50px;
+}
+
+.social :hover{
+	background-color: #c6c9cb;
+	
+}
+
+.sec2{
+	height: 100hv;
+}
+
+.container{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.row{
+	text-align-last:left ;
+}
+
+.text{
+	font-size: 2.5rem;
+}
+
+.text1{
+text-align: center;
+}
+
+.text2{
+	padding: 0px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.h5{
+text-align: left;
+}
+
+.text3{
+	text-align-last: left ;
+}
+
+.col-sm-4{
+	width: 500px;
+	margin: auto;
+}
+
+.line{
+	margin-top: 2px;
+}
+
+.container.pt-5{
+margin-top: 0px;
+}
+
+.uptodate{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.firstname{
+	border-radius: 300px;
+}
+
+.email{
+	margin-top: 10px;
+	border-radius: 300px;
+
+}
+
+.all {
+	width: 40%;
+	margin: auto;
+}
+
+.form-control{
+	border-radius: 300px;
+}
+
+.message{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 0px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.btn-dark{
+	background-color: rgb(211, 168, 87);
+	border-color: rgb(211, 168, 87) ;
+	width: 100%;
+	border-radius: 300px;
+	margin-bottom: 20px;
+}
+
+.btn-dark :hover {
+	background-color: aqua;
+}
+
+.footerr{
+	display: flex;
+	height: 70px;
+	background-color: black;
+	color: aliceblue;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	justify-content: flex-end;
+	text-size-adjust: 0.5rem;
+}
